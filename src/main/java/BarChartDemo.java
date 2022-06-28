@@ -41,7 +41,6 @@
  */
 
 import java.awt.Dimension;
-
 import java.io.Serial;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -75,7 +74,7 @@ public class BarChartDemo extends ApplicationFrame {
   /**
    * Creates a new demo instance.
    *
-   * @param title  the frame title.
+   * @param title the frame title.
    */
   public BarChartDemo(String title) {
     super(title);
@@ -107,8 +106,7 @@ public class BarChartDemo extends ApplicationFrame {
   /**
    * Creates a sample chart.
    *
-   * @param dataset  the dataset.
-   *
+   * @param dataset the dataset.
    * @return The chart.
    */
   private static JFreeChart createChart(CategoryDataset dataset) {
@@ -140,7 +138,7 @@ public class BarChartDemo extends ApplicationFrame {
   /**
    * Starting point for the demonstration application.
    *
-   * @param args  ignored.
+   * @param args ignored.
    */
   public static void main(String[] args) {
     BarChartDemo demo = new BarChartDemo("JFreeChart: BarChartDemo.java");
